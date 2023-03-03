@@ -1,0 +1,30 @@
+﻿<Window x:Class="Praktika.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Praktika"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Label Name="nameLbl" Background="Aquamarine" Height="40" Width="79" FontSize="20" Content="Name" Canvas.Left="100" Canvas.Top="60" />
+        <Label Name="surnameLbl"  Background="Aquamarine" Height="40" Width="100" FontSize="20" Content="Surnname" Canvas.Left="100" Canvas.Top="100" />
+        <Label Name="emailLbl"  Background="Aquamarine" Height="40" Width="79" FontSize="20" Content="Email" Canvas.Left="100" Canvas.Top="140" />
+        <Label Name="mobilePhoneLbl"  Background="Aquamarine" Height="40" Width="140" FontSize="20" Content="Mobile Phone" Canvas.Left="100" Canvas.Top="180" />
+        <Label Name="BirthdateLbl"  Background="Aquamarine " Height="40" Width="140" FontSize="20" Content="Birth Date" Canvas.Left="100" Canvas.Top="220" />
+        <TextBox Name="nameTxb" Foreground="Green" Height="40" Width="200" FontSize="20" Canvas.Left="300" Canvas.Top="60"></TextBox>
+        <TextBox Name="surnameTxb" Foreground="Green" Height="40" Width="200" FontSize="20" Canvas.Left="300" Canvas.Top="100"></TextBox>
+        <TextBox Name="emailTxb" Foreground="Green" Height="40" Width="200" FontSize="20" Canvas.Left="300" Canvas.Top="140"></TextBox>
+        <TextBox Name="monilePhoneTxb" Foreground="Green" Height="40" Width="200" FontSize="20" Canvas.Left="300" Canvas.Top="180"></TextBox>
+        <TextBox Name="birthdateTxb" Foreground="Green" Height="40" Width="200" FontSize="20" Canvas.Left="300" Canvas.Top="220"></TextBox>
+        <TextBox Name="fileNameTxb" Background="Aquamarine" Foreground="Black" Height="40" Width="102" FontSize="20" Canvas.Left="620" Canvas.Top="284" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBox>
+        <ListBox Name="listBox" Height="191" Width="250" Canvas.Left="520" Canvas.Top="60" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" SelectionChanged="listBox_SelectionChanged"  ></ListBox>
+        <Button Name="addBtn" Height="40" Width="100" Content="ADD" Background="Aquamarine" FontWeight="Bold" FontStyle="Oblique" Canvas.Left="350" Canvas.Top="284" Click="addBtn_Click"></Button>
+        <Button Name="saveBtn" Height="40" Width="100" Content="SAVE" Background="Aquamarine" FontWeight="Bold" FontStyle="Oblique" Canvas.Left="671" Canvas.Top="344" Click="saveBtn_Click" HorizontalAlignment="Left" VerticalAlignment="Center"></Button>
+        <Button Name="changeBtn" Height="40" Width="100" Content="CHANGE" Background="Aquamarine" FontWeight="Bold" FontStyle="Oblique" Canvas.Left="350" Canvas.Top="344" Click="chhangeBtn" RenderTransformOrigin="-0.414,1.267"></Button>
+        <Button Name="loadBtn" Height="40" Width="100" Content="LOAD" Background="Aquamarine" FontWeight="Bold" FontStyle="Oblique" Canvas.Left="550" Canvas.Top="344" Click="loaddBtn" HorizontalAlignment="Center" VerticalAlignment="Center"></Button>
+    </Canvas>
+
+
+
+</Window>
